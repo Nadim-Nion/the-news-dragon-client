@@ -1,0 +1,33 @@
+.img-container {
+    position: relative;
+    /* width: 100%; */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+
+.text-overlay h4,
+p {
+    margin: 0 auto;
+    /* text-align: center;
+    width: fit-content; */
+    color: whitesmoke;
+    padding-bottom: 20px;
+
+}
+
+/* adjust based on desired spacing between h4 and p */
+/* .text-overlay h4:first-child {
+    margin-top: -10px;
+
+} */
+
+.amazing-txt,
+.np-txt {
+    display: block;
+}
