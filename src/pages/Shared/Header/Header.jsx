@@ -10,7 +10,7 @@ const Header = () => {
             <div className="text-center">
                 <img src={logo} alt="" />
                 <p className='text-secondary'><small>Journalism Without Fear or Favour</small></p>
-                <p>{moment().format("dddd, MMMM D, YYYY")}</p>
+                <p className='text-dark'>{moment().format("dddd, MMMM D, YYYY")}</p>
             </div>
             <div className='d-flex'>
                 <Button variant="danger">Latest</Button>

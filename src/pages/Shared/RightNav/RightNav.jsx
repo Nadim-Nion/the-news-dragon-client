@@ -26,7 +26,7 @@ const RightNav = () => {
             <div className='img-container'>
                 <img src={bg} alt="" />
                 <div className='text-overlay'>
-                    <h4>Create an
+                    <h4 className='mb-3'>Create an
                         <span className='amazing-txt'>Amazing</span>
                         <span className='np-txt'>Newspaper</span>
                     </h4>
@@ -35,7 +35,7 @@ const RightNav = () => {
                         customize layouts, one- <br />
                         click to import demo <br />
                         and much more.</p>
-                    <button className='btn btn-danger ms-3'>Learn More</button>
+                    <button className='btn btn-danger ms-3 mt-3'>Learn More</button>
                 </div>
             </div>
         </div>
