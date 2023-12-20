@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import first from '../../../assets/1.png';
+import second from '../../../assets/2.png';
+import third from '../../../assets/3.png';
+import { Card, Col, Row } from 'react-bootstrap';
 
 const LeftNav = () => {
     const [categories, setCategories] = useState([]);
@@ -22,6 +26,35 @@ const LeftNav = () => {
                         <Link to={`/category/${category.id}`} className='text-decoration-none text-dark'>{category.name}</Link>
                     </p>)
                 }
+            </div>
+
+            <div className='mt-5'>
+                <Row xs={1} md={1} lg={1} className="g-4">
+                    <Col>
+                        <Card>
+                            <Card.Img variant="top" src={first} />
+                            <Card.Body className='ps-0'>
+                                <Card.Title>Bayern Slams Authorities Over Flight Delay to Club World Cup</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card>
+                            <Card.Img variant="top" src={second} />
+                            <Card.Body className='ps-0'>
+                                <Card.Title>Bayern Slams Authorities Over Flight Delay to Club World Cup</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card>
+                            <Card.Img variant="top" src={third} />
+                            <Card.Body className='ps-0'>
+                                <Card.Title>Bayern Slams Authorities Over Flight Delay to Club World Cup</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
             </div>
         </div>
     );

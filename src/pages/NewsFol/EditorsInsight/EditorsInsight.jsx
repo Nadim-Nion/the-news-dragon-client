@@ -12,39 +12,24 @@ const EditorsInsight = () => {
                 <Col>
                     <Card>
                         <Card.Img variant="top" src={first} />
-                        <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit
-                                longer.
-                            </Card.Text>
+                        <Card.Body className='ps-0'>
+                            <Card.Title>21 The Most Stylish Wedding Guest Dresses For Spring</Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
                     <Card>
                         <Card.Img variant="top" src={second} />
-                        <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit
-                                longer.
-                            </Card.Text>
+                        <Card.Body className='ps-0'>
+                            <Card.Title>21 The Most Stylish Wedding Guest Dresses For Spring</Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
                     <Card>
                         <Card.Img variant="top" src={third} />
-                        <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit
-                                longer.
-                            </Card.Text>
+                        <Card.Body className='ps-0'>
+                            <Card.Title>21 The Most Stylish Wedding Guest Dresses For Spring</Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>
