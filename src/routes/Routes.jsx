@@ -7,6 +7,7 @@ import News from "../pages/NewsFol/News/News";
 import LoginLayout from "../layouts/LoginLayout";
 import Login from "../pages/LoginFol/Login/Login";
 import Register from "../pages/LoginFol/Register/Register";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -50,7 +51,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/news/:id',
-                element: <News></News>,
+                element: <PrivateRoute><News></News></PrivateRoute>,
                 loader: ({ params }) => fetch(`http://localhost:5000/news/${params.id}`)
             }
         ]
