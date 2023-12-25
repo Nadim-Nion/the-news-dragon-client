@@ -1,4 +1,4 @@
-# The Dragon News Portal
+# The Dragon News Portal (Client Side)
 
 Welcome to The Dragon News Portal, a dynamic and modern news website built with React + Vite. In just 4-5 days, we've crafted a unique user experience with a range of key features to keep you informed and engaged.
 
